@@ -3,9 +3,9 @@ import org.w3c.dom.CDATASection;
 import javax.xml.transform.sax.SAXResult;
 
 public class Car {
-    int model;
-    String marka;
-    short jyly;
+    private int model;
+    private String marka;
+    private short jyly;
 
     public Car(int model, String marka, short jyly) {
         this.model = model;

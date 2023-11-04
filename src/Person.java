@@ -1,7 +1,7 @@
 public class Person {
-    String name;
-    String organy;
-    int age;
+    private String name;
+    private String organy;
+    private int age;
 
     public Person(String name, String organy, int age) {
         this.name = name;

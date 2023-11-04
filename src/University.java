@@ -3,9 +3,9 @@ import java.awt.image.Kernel;
 import static java.lang.StringTemplate.STR;
 
 public class University {
-    String sabak;
-    String okuuchylar;
-    int kabinet;
+    private String sabak;
+    private String okuuchylar;
+    private int kabinet;
 
 public University(String sabak, String okuuchylar, int kabinet) {
     this.sabak = sabak;

@@ -1,7 +1,7 @@
 public class School {
-    byte okuuchu;
-    byte mugalim;
-    byte etazh;
+    private byte okuuchu;
+    private byte mugalim;
+    private byte etazh;
     public School(byte okuuchu, byte mugalim, byte etazh) {
         this.okuuchu = okuuchu;
         this.mugalim = mugalim;
